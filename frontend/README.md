@@ -146,19 +146,6 @@ Preserves user context and improves usability when navigating large datasets.
 
 ---
 
-### ❖ Warn on Close if Unsaved Changes
-
-**Why this approach?**
-Prevents accidental data loss and improves form safety, which is critical in real-world admin tools.
-
-**Implementation:**
-
-* Tracks form dirty state by comparing initial and current values
-* Shows a browser warning when the user tries to refresh, close, or navigate away with unsaved changes
-* Warning is removed automatically once data is saved
-
----
-
 ## Data Persistence
 
 * All blog data (including images) is stored in **localStorage**
@@ -228,7 +215,7 @@ npm run dev
 ## Deployment
 
 * **Live URL:** https://blog-admin-dashboard-gray.vercel.app/
-* Deployed using **Vercel
+* Deployed using Vercel
 
 ---
 
