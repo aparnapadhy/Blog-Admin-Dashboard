@@ -227,8 +227,8 @@ npm run dev
 
 ## Deployment
 
-* **Live URL:** <add deployed link here>
-* Deployed using **Vercel / Netlify / Firebase Hosting**
+* **Live URL:** https://blog-admin-dashboard-gray.vercel.app/
+* Deployed using **Vercel
 
 ---
 
