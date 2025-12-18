@@ -7,6 +7,7 @@ import BlogList from "./pages/BlogList.jsx";
 import BlogForm from "./pages/BlogForm.jsx";
 import BlogView from "./pages/BlogView.jsx";
 import Statistics from "./pages/Statistics.jsx";
+import DeletedBlogs from "./pages/DeletedBlogs.jsx";
 
 function App() {
   return (
@@ -23,13 +24,13 @@ function App() {
                 <Route path="/blogs/new" element={<BlogForm />} />
                 <Route path="/blogs/edit/:id" element={<BlogForm />} />
                 <Route path="/blogs/view/:id" element={<BlogView />} />
+                <Route path="/deleted-blogs" element={<DeletedBlogs />} />
               </Routes>
             </main>
           </div>
         </div>
       </Router>
     </AppProvider>
-
   );
 }
 

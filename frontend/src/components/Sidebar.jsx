@@ -8,6 +8,7 @@ const Sidebar = () => {
   const links = [
     { name: "Statistics", path: "/" },
     { name: "Dashboard", path: "/blogs" },
+    { name: "Deleted Blogs", path: "/deleted-blogs" },
   ];
 
   return (
@@ -19,17 +20,24 @@ const Sidebar = () => {
         className="mb-8 mx-auto sm:mx-0"
       />
       <nav className="flex flex-col gap-2 text-xs sm:text-sm">
-        {links.map(link => (
-          <Link
-            key={link.path}
-            to={link.path}
-            className={`p-2 rounded hover:bg-gray-700 text-center sm:text-left ${
-              location.pathname.startsWith(link.path) ? "bg-gray-700" : ""
-            }`}
-          >
-            {link.name}
-          </Link>
-        ))}
+        {links.map((link) => {
+          const isActive =
+            link.path === "/"
+              ? location.pathname === "/"
+              : location.pathname.startsWith(link.path);
+
+          return (
+            <Link
+              key={link.path}
+              to={link.path}
+              className={`p-2 rounded hover:bg-gray-700 text-center sm:text-left ${
+                isActive ? "bg-gray-700" : ""
+              }`}
+            >
+              {link.name}
+            </Link>
+          );
+        })}
       </nav>
     </div>
   );
