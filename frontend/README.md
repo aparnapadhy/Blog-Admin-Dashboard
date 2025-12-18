@@ -181,7 +181,8 @@ src/
 │   │── BlogForm.jsx        # Create & Edit blog form (validation + image upload)
 │   │── BlogList.jsx        # Blog listing with pagination, search & filters
 │   │── BlogView.jsx        # Detailed blog view page
-│   │── Statistics.jsx     # Dashboard stats / derived counts
+│   │── DeletedBlogs.jsx    # List of soft-deleted blogs
+│   │── Statistics.jsx      # Dashboard stats / derived counts
 │
 │── App.jsx                 # Application routes & layout structure
 │── main.jsx                # App entry point
@@ -208,7 +209,7 @@ npm run dev
 
 ## Demo Video
 
-* **Demo Video Link:** <add Loom video link here>
+* **Demo Video Link:** https://www.loom.com/share/a690a9ae314141c1809ee6b381db83d0
 
 ---
 

@@ -1,4 +1,3 @@
-// src/pages/BlogForm.jsx
 import React, { useEffect, useState, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAppContext } from "../context/AppContext.jsx";
