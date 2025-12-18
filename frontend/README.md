@@ -6,25 +6,6 @@ This project is a **production-style Blog Admin Dashboard** built using modern f
 
 ---
 
-## Goals
-
-1. **Build Frontend App**
-   Create a structured and scalable frontend application that reflects real-world engineering practices.
-
-2. **UI/UX Evaluation**
-   Design clean, responsive, and user-friendly layouts with strong UX principles.
-
-3. **Problem Solving**
-   Implement medium-level logic tasks and handle edge cases effectively.
-
-4. **Component Architecture**
-   Demonstrate clear understanding of component structure, routing, state handling, and data flow.
-
-5. **Modern Tools Knowledge**
-   Use modern frontend tools and best practices for performance and maintainability.
-
----
-
 ## Tech Stack
 
 * **React + Vite**
@@ -240,17 +221,7 @@ npm run dev
 
 ## Demo Video
 
-* 3–5 minute Loom video
-* Includes:
-
-  * Personal introduction
-  * CRUD operations demo
-  * Pagination
-  * Filters & search
-  * Brain task & quick logic task
-  * Persistence after refresh
-  * Responsive layout
-  * Error states
+* **Demo Video Link:** <add Loom video link here>
 
 ---
 
@@ -275,9 +246,8 @@ npm run dev
 
 ## Author
 
-**Name:** <Your Name>
-**Location:** <Your Location>
+**Name:** Aparna
+**Location:** Brahmapur, Odisha
 
 ---
 
-📩 After completion, this project is submitted as per instructions with GitHub repo link, live deployment link, and demo video.
