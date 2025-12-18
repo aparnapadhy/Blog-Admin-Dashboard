@@ -80,7 +80,7 @@ Each blog includes the following fields:
 ### Search & Filters
 
 * Search by blog title
-* Filter by category and status
+* Filter by status
 
 ### Pagination
 
